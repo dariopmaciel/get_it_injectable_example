@@ -1,5 +1,8 @@
 import 'dart:math';
 
+import 'package:injectable/injectable.dart';
+
+@injectable
 class RandomLazySingletonModel {
   final int id;
   final String name;
